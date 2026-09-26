@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+st.title("クイズ〇〇keyを押せ")
 #問題の作成
 KEYS=[
     "Esc","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","Ins","Prt","Del","Home","End","PgUp","PgDn",
