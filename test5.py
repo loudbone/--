@@ -13,7 +13,7 @@ KEYS=[
 if "what" not in st.session_state:
     st.session_state.what = random.choice(KEYS)
 
-st.header(f"このkeyを押せ：{st.session_state.what}")
+st.header(f"パソコン版このkeyを押せ：{st.session_state.what}")
 
 if "result" not in st.session_state:
     st.session_state.result = ""
